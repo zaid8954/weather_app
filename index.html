@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/weatherApp.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="searchBox">
+                <input type="text" id="input-box" placeholder="Enter city name..." autocomplete="off">
+                <button id="search-box">Search</button>
+            </div>
+            <div class="weather-box">
+                <div class="location">
+                    <div class="city"><span id="city"></span>&ensp;<span id="country"></span></div>
+                    
+                </div>
+                <div class="current-weather">
+                    <!-- <img src="images/rain.gif" alt="" width="100px" id="img"> -->
+                    <div class="temp" id="temp"></div>
+                    <br>
+                    <div class="min-max" ><span id="min"></span>&ensp;<span id="max"></span></div>
+                    <div class="min-max"><span id="pars"></span>&ensp;<span id="humidity"></span></div>
+                    <div class="weather" id="weather"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/weatherApp.js"></script>
+</body>
+
+</html>
